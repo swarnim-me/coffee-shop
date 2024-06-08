@@ -2,6 +2,8 @@
 
 This project is created to learn about ES6 modules and how to render content dynamically using Vanilla JavaScript.
 
+[Live Demo](https://swarnim-me.github.io/coffee-shop/)
+
 ## Acceptance Criteria
 * The user should be able to navigate between four screens: Home, Menu, About and Contact.
 * The pages should render dynamically (no page reload).
