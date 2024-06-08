@@ -6,15 +6,13 @@ import screens from './common/screenData';
 // CSS import
 import '../css/style.css';
 
-// Initial Background
-import homeBackground from '../assets/images/background-home.png';
+import updateScreen from './utility/screenUpdater';
 
 const content = document.createElement("div");
 content.classList.add("content");
-content.appendChild(createHome());
-document.body.style.backgroundImage = `url(${homeBackground})`;
-
 
 document.body.appendChild(createNav(screens));
 // document.body.appendChild(createHome());
 document.body.appendChild(content);
+
+updateScreen(0);
