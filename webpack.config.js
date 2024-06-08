@@ -17,8 +17,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: "Brew Haven",
-            inject: "head",
-            scriptLoading: "defer"
+            inject: "body",
         })
     ],
     module: {
