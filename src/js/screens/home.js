@@ -1,5 +1,6 @@
-import '../css/home.css';
-import Logo from '../assets/images/logo.png';
+import '../../css/home.css';
+import Logo from '../../assets/images/logo.png';
+import updateScreen from '../utility/screenUpdater';
 
 const createHome = () => {
 
@@ -27,6 +28,7 @@ const createHome = () => {
     const exploreMenuBtn = document.createElement("button");
     exploreMenuBtn.textContent = "Explore Menu";
     exploreMenuBtn.classList.add("explore-menu-btn");
+    exploreMenuBtn.addEventListener("click", () => { updateScreen(1) });
 
     // Adding all elements to the wrapper
     homeContent.append(logoEle, taglineEle, exploreMenuBtn);

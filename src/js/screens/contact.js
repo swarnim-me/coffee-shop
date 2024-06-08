@@ -1,8 +1,8 @@
-import contactData from '../data/contact.json';
-import facebookIcon from '../assets/images/facebook-icon.svg';
-import instagramIcon from '../assets/images/instagram-icon.svg';
-import twitterIcon from '../assets/images/twitter-icon.svg';
-import '../css/contact.css';
+import contactData from '../../data/contact.json';
+import facebookIcon from '../../assets/images/facebook-icon.svg';
+import instagramIcon from '../../assets/images/instagram-icon.svg';
+import twitterIcon from '../../assets/images/twitter-icon.svg';
+import '../../css/contact.css';
 
 const createContact = () => {
     const contactWrapper = document.createElement("div");

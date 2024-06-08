@@ -1,6 +1,7 @@
-import '../css/nav.css';
+import '../../css/nav.css';
+import updateScreen from '../utility/screenUpdater';
 
-const createNav = (screens, updateScreen) => {
+const createNav = (screens) => {
     // Wrapper
     const navItems = document.createElement("ul");
     navItems.classList.add("nav-items");
@@ -10,7 +11,9 @@ const createNav = (screens, updateScreen) => {
         navItemEle.classList.add("nav-item");
         navItemEle.setAttribute("data-index", index);
         navItemEle.textContent = screen.title;
-        navItemEle.addEventListener("click", updateScreen);
+        navItemEle.addEventListener("click", (event) => {
+            updateScreen(event.target.dataset.index);
+        });
         navItems.appendChild(navItemEle);
     })
 

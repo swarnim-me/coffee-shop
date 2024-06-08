@@ -1,5 +1,5 @@
-import '../css/about.css';
-import aboutData from '../data/about.json';
+import '../../css/about.css';
+import aboutData from '../../data/about.json';
 
 const createAbout = () => {
     const aboutWrapperEle = document.createElement("div");

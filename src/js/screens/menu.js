@@ -1,5 +1,5 @@
-import menuData from '../data/menu.json';
-import '../css/menu.css';
+import menuData from '../../data/menu.json';
+import '../../css/menu.css';
 
 const createMenu = () => {
     const menuWrapperEle = document.createElement("div");
