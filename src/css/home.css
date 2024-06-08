@@ -22,4 +22,10 @@
     border: none;
     padding: 10px 20px;
     color: black;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.explore-menu-btn:hover {
+    transform: scale(1.2);
 }
