@@ -1,0 +1,21 @@
+.about-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.about-item-title {
+    font-size: 1.6rem;
+    color: var(--primary-clr);
+    padding-bottom: 20px;
+}
+
+.about-item {
+    min-width: 0;
+}
+
+.about-item-description {
+    line-height: 30px;
+    font-size: 1.2rem;
+}

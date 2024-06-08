@@ -1,0 +1,11 @@
+{
+    "content": "We love hearing from our customers! Whether you have questions, want to place an order, or provide feedback, please get in touch with us",
+    "address": "Address: 123 Coffee Street, Brewtown, CA 45678",
+    "phone": "(123) 456-7890",
+    "email": "Email: info@brewhaven.com",
+    "social": {
+        "facebook": "https://www.facebook.com/brewhaven",
+        "instagram": "https://www.instagram.com/brewhaven",
+        "twitter": "https://www.twitter.com/brewhaven"
+    }
+}

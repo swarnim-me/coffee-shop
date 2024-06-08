@@ -1,0 +1,15 @@
+.contact-wrapper {
+    width: min(100%, 600px);
+    text-align: center;
+    margin: auto;
+    font-size: 1.4rem;
+    display: grid;
+    gap: 20px;
+    line-height: 40px;
+}
+
+.social-media-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}

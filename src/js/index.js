@@ -1,7 +1,9 @@
-// Components
+// Screens
 import createNav from './nav';
 import createHome from './home';
 import createMenu from './menu';
+import createAbout from './about';
+import createContact from './contact';
 
 // Background Images
 import homeBackground from '../assets/images/background-home.png';
@@ -11,8 +13,6 @@ import contactBackground from '../assets/images/background-contact.png';
 
 // CSS import
 import '../css/style.css';
-
-const navTitles = ['Home', 'Menu', 'About', 'Contact'];
 
 const screens = [
     {
@@ -27,11 +27,13 @@ const screens = [
     },
     {
         title: "About",
-        background: aboutBackgroud
+        background: aboutBackgroud,
+        init: createAbout
     },
     {
         title: "Contact",
-        background: contactBackground
+        background: contactBackground,
+        init: createContact
     }
 ]
 
@@ -43,6 +45,7 @@ document.body.style.backgroundImage = `url(${homeBackground})`;
 const updateScreen = (event) => {
     console.log(event.target.dataset.index);
     content.innerHTML = "";
+    console.log(screens[event.target.dataset.index].init());
     content.appendChild(screens[event.target.dataset.index].init());
     document.body.style.backgroundImage = `url(${screens[event.target.dataset.index].background})`;
 }
