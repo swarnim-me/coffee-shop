@@ -1,0 +1,36 @@
+:root {
+    --primary-clr: #FFA800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poly';
+}
+
+@font-face {
+    font-family: 'Poly';
+    src: url('../assets/fonts/Poly-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poly Italic';
+    src: url('../assets/fonts/Poly-Italic.ttf');
+}
+
+.primary {
+    color: var(--primary-clr);
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-content: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

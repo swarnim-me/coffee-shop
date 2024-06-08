@@ -1,0 +1,20 @@
+.nav-items {
+    width: min(400px, 100%);
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-around;
+    position: fixed;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+}
+
+.nav-item {
+    list-style: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.nav-item:hover {
+    transform: scale(1.2);
+}

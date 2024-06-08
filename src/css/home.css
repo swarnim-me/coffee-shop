@@ -1,0 +1,23 @@
+.tagline {
+    font-size: 1.5rem;
+    font-family: 'Poly Italic';
+}
+
+.logo {
+    width: min(500px, 80%);
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.explore-menu-btn {
+    font-size: 1.5rem;
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+}
