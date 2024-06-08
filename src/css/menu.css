@@ -1,0 +1,39 @@
+.menu-item-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.menu-item-price {
+    font-size: 1.4rem;
+}
+
+.menu-item-title {
+    font-size: 1.6rem;
+    color: var(--primary-clr);
+}
+
+.menu-wrapper {
+    width: 100%;
+    gap: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    box-sizing: content-box;
+}
+
+.menu-item {
+    border-left: 4px solid white;
+    padding: 0 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.menu-description {
+    font-size: 1.2rem;
+}
+
+@media(max-width: 720px) {
+    .menu-wrapper {
+        gap: 40px;
+    }
+}

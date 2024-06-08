@@ -2,61 +2,61 @@
     {
         "title": "Espresso",
         "description": "Rich and bold shot of pure coffee",
-        "price": 3.00
+        "price": "3.00"
     },
     {
         "title": "Americano",
         "description": "Espresso with hot water for a smooth taste",
-        "price": 3.50
+        "price": "3.50"
     },
     {
         "title": "Latte",
         "description": "Espresso, steamed milk, and light foam",
-        "price": 4.50
+        "price": "4.50"
     },
     {
         "title": "Cappuccino",
         "description": "Espresso, steamed milk, and foam, with cocoa",
-        "price": 4.50
+        "price": "4.50"
     },
     {
         "title": "Flat White",
         "description": "Smooth blend of espresso and steamed milk",
-        "price": 4.75
+        "price": "4.75"
     },
     {
         "title": "Mocha",
         "description": "Espresso, chocolate syrup, steamed milk, whipped cream",
-        "price": 5.00
+        "price": "5.00"
     },
     {
         "title": "Macchiato",
         "description": "Espresso with a small amount of foamed milk",
-        "price": 4.00
+        "price": "4.00"
     },
     {
         "title": "Cold Brew",
         "description": "Slow-steeped coffee served cold and refreshing",
-        "price": 4.00
+        "price": "4.00"
     },
     {
         "title": "Chai Latte",
         "description": "Spiced tea concentrate with steamed milk",
-        "price": 4.75
+        "price": "4.75"
     },
     {
         "title": "Affogato",
         "description": "Espresso poured over vanilla ice cream",
-        "price": 5.50
+        "price": "5.50"
     },
     {
         "title": "Irish Coffee",
         "description": "Coffee, Irish whiskey, sugar, and cream",
-        "price": 6.00
+        "price": "6.00"
     },
     {
         "title": "Turkish Coffee",
         "description": "Strong coffee with cardamom, unfiltered",
-        "price": 5.00
+        "price": "5.00"
     }
 ]
